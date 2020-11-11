@@ -61,8 +61,10 @@ raw_B_long %>%
   geom_smooth(mehthod = "lm", se = F)
 ```
 
-# it would be good to try these analyses again with the outliers removed
+# try these analyses again with the outliers removed
 # can we normalize the data
 # put in pictures with tab pills, GIF would be cool
 # significant difference between images
 # significant difference between sequence position
+# present each participants most and least viewed
+# compare most and least viewed by sequence position
