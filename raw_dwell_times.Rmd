@@ -1,0 +1,70 @@
+---
+title: "fractal_data_raw"
+author: "sgwallner"
+date: "11/6/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(rio)
+library(here)
+
+```
+
+```{r}
+
+raw_A <- import("frac_SA.csv")
+
+raw_B <- import("frac_SB.csv")
+```
+
+```{r}
+raw_A_long <- raw_A %>% 
+ pivot_longer(cols = a:f, names_to = "participant", values_to = "dwell_time")
+
+raw_B_long <- raw_B %>% 
+ pivot_longer(cols = g:p, names_to = "participant", values_to = "dwell_time")
+```
+
+```{r}
+raw_A_long %>% 
+  ggplot(aes(x = number, y = dwell_time, color = participant)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = F)
+
+raw_B_long %>% 
+  ggplot(aes(x = number, y = dwell_time, color = participant)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = F)
+
+raw_A_long %>% 
+  ggplot(aes(x = number, y = dwell_time, color = participant)) +
+  geom_line()
+
+raw_B_long %>% 
+  ggplot(aes(x = number, y = dwell_time, color = participant)) +
+  geom_line()
+
+raw_A_long %>% 
+  ggplot(aes(x = number, y = dwell_time)) +
+  facet_wrap("participant") +
+  geom_line() +
+  geom_smooth(mehthod = "lm", se = F)
+
+raw_B_long %>% 
+  ggplot(aes(x = number, y = dwell_time)) +
+  facet_wrap("participant") +
+  geom_line() +
+  geom_smooth(mehthod = "lm", se = F)
+```
+
+# try these analyses again with the outliers removed
+# can we normalize the data
+# put in pictures with tab pills, GIF would be cool
+# significant difference between images
+# significant difference between sequence position
+# present each participants most and least viewed
+# compare most and least viewed by sequence position
