@@ -126,7 +126,7 @@ raw_A_long <- raw_A %>%
 raw_B_long <- raw_B %>% 
  pivot_longer(cols = g:p, names_to = "participant", values_to = "dwell_time")
 ```
-
+<!-- I wonder how hard it would be to make it so each data set had 8 participants. I tried briefly and it didn't like that, as the raw data has 6 and 10 columns, not 8 and 8. -->
 ## Create New Dataset Excluding Outliers
 
 ```{r}
@@ -263,8 +263,9 @@ seq_fractal_data %>%
   facet_wrap(~fractal_type) +
   geom_point(data = new_data_forever, aes(y = mean_dwell_time)) +
   scale_y_continuous(limits = c(0, 1.2)) +
-  labs(y = "Dwell Time (s)", x = "Sequence Position")
+  labs(y = "Dwell Time(s)", x = "Sequence Position")
 ```
+<!-- eliminated extra space in Dwell Time(s) -->
 
 ## Dwell Time over Time (yeah, that's right)
 
