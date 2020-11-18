@@ -4,6 +4,11 @@ author: "Ben Chaloupka, Tess Sameshima, and Scott Wallner"
 date: "10/26/2020"
 output: pdf_document
 ---
+<!-- Using the papaja format would be good here, as it would provide a place for an abstract that would help the casual observer understand your project. -->
+
+## "Our primary research question is whether observer dwell times systematically differ between growth and decay sequences when given the image of a fractal in growth or decay." 
+![here is a serious sierpinski sequence](images/fractal_sequences.png)
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
