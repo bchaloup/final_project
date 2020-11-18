@@ -118,6 +118,7 @@ fractal_data <- fractal_data %>%
 raw_A_long <- raw_A %>% 
  pivot_longer(cols = a:f, names_to = "participant", values_to = "dwell_time")
 
+
 raw_B_long <- raw_B %>% 
  pivot_longer(cols = g:p, names_to = "participant", values_to = "dwell_time")
 ```
@@ -129,6 +130,7 @@ cutoff <- mean(fractal_data$dwell_time) + 3 * sd(fractal_data$dwell_time)
 
 filtered_fractal_data <- fractal_data %>% 
   filter(dwell_time < cutoff)
+
 ```
 
 ## Create Dataset with Difference Between Growth and Decay Dwell Times as its own Variable
@@ -220,6 +222,38 @@ fractal_data %>%
 ```
 
 ## Building a Model (and a Plot for that Model)
+<!-- If you want to build a model, you might want to check the assumptions of the residuals too. -->
+<!-- -From Maggie :) -->
+```{r}
+library(lm.beta)
+library(MASS)
+library(psych)
+library(lmtest)
+
+#confidence intervals:
+confint(model1)
+# Create a new column and append the Unstandardized model predicted values
+
+data$pred   <- predict(model1)
+
+# Create a new column and append the Studentized Residuals
+
+data$zresid <- studres(model1)
+
+# Compute the absolute value of studentized residuals
+
+data$abs.zresid <- abs(data$zresid)
+
+# Create a new column and append the Studentized Deleted Residuals
+
+data$stdresid <- rstudent(model1)
+
+# Create a new column and append the Hat Values
+
+data$hat <- hatvalues(model1)
+
+```
+
 
 ```{r}
 model1 <- lm(data = fractal_data, dwell_time ~ direction)
@@ -247,8 +281,10 @@ new_data_forever <- seq_fractal_data %>%
 seq_fractal_data %>% # change points to numbers for easy sequence position identification
   ggplot(aes(x = fractal_type, y = dwell_time, color = sequence_position)) +
   geom_point(data = new_data_forever, aes(y = mean_dwell_time)) +
-  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1))
-
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)) 
+  # + labs(color = "Sequence Position")
+#It may be helpful to have clear labels with spaces in a final manuscript (rather than underscores). I added a legend label above.
+  
 model2 <- lm(data = seq_fractal_data, dwell_time ~ sequence_position * fractal_type)
 
 car::Anova(model2)
