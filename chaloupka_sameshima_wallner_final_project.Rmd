@@ -113,7 +113,7 @@ fractal_data <- fractal_data %>%
     grepl("A7.png", disp_image, fixed = T) ~ 8,
     grepl("A12800.png", disp_image, fixed = T) ~ 9,
     grepl("B12800.png", disp_image, fixed = T) ~ 9
-  ))
+  )) #very organized! curious if you can make this chunk shorter (like coding all with "3.png" as 4), but I am not sure if you have a pattern to follow like that, based on what I see here. Either way, this works.
 
 raw_A_long <- raw_A %>% 
  pivot_longer(cols = a:f, names_to = "participant", values_to = "dwell_time")
@@ -125,7 +125,7 @@ raw_B_long <- raw_B %>%
 ## Create New Dataset Excluding Outliers
 
 ```{r}
-cutoff <- mean(fractal_data$dwell_time) + 3 * sd(fractal_data$dwell_time)
+cutoff <- mean(fractal_data$dwell_time) + 3 * sd(fractal_data$dwell_time) 
 
 filtered_fractal_data <- fractal_data %>% 
   filter(dwell_time < cutoff)
@@ -156,6 +156,8 @@ fractal_data %>%
   summarise(mean_dwell_time = round(mean(dwell_time), 3),
             sd_dwell_time = round(sd(dwell_time), 3)) %>% 
   knitr::kable(col.names = c("Participant", "Dwell Time Mean", "Dwell Time SD"))
+
+# would be curious to see this visually represented, like a boxplot per participant to compare means, sds, and distributions
 ```
 
 ## Descriptive Statistics by Direction
@@ -177,6 +179,8 @@ fractal_data %>%
             sd_dwell_time = round(sd(dwell_time), 3)) %>% 
   arrange(mean_dwell_time) %>% 
   knitr::kable(col.names = c("Fractal", "Dwell Time Mean", "Dwell Time SD"))
+
+# is there a way to make the name of the fractal more meaningful here? I am of course no content expert, but I was curious if the Images/ prefix and .png suffix are needed
 ```
 
 ## Descriptive Statistics by Participant and Direction
@@ -213,10 +217,24 @@ fractal_data %>%
   ggplot(aes(x = direction, y = dwell_time, fill = direction)) +
   geom_col(data = new_data_for_now, aes(y = mean_dwell_time)) +
   facet_wrap(~participant, scales = "free") +
-  labs(x = "Direction", y = "Dwell Time (s)", title = "Dwell Times by Condition for Each Participant", subtitle = "(y axis scale varies by participant)") +
+  labs(x = "Direction", y = "Dwell Time (s)", title = "Dwell Times by Condition for Each Participant", subtitle = "y axis scale varies by participant") +
   theme(legend.position = "none") +
   scale_fill_viridis_d() +
   theme(axis.text.x = element_text(size = 7))
+
+# this faceted visual is very cool!!!!!
+# I'm curious how the dwell time compares across participants, so I just explored that below
+
+fractal_data %>% 
+  ggplot(aes(x = participant, y = dwell_time, fill = participant)) +
+  geom_col(data = new_data_for_now, aes(y = mean_dwell_time)) +
+  facet_wrap(~direction, scale = "free") +
+  labs(x = "Participant", y = "Dwell Time (s)", title = "Dwell Times by Condition for Each Participant", subtitle = "y axis scale varies by participant") +
+  theme(legend.position = "none") +
+  scale_fill_viridis_d() +
+  theme(axis.text.x = element_text(size = 7)) +
+  coord_flip()
+
 ```
 
 ## Building a Model (and a Plot for that Model)
@@ -295,4 +313,6 @@ raw_B_long %>%
   facet_wrap("participant") +
   geom_line() +
   geom_smooth(method = "lm", se = F)
+
+# would be interested to see how you interpret these graphs in your paper! overall, really cool work
 ```
