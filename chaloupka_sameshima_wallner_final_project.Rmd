@@ -16,6 +16,31 @@ library(tidyverse)
 theme_set(theme_minimal())
 ```
 
+## Fractal Iteration GIF
+
+```{r}
+
+library(magick)
+
+Tree_A <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4nts3v.gif") 
+
+Fractal_Curve_C <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntsf7.gif") 
+
+Sierpinski_A <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntsnw.gif") 
+
+Hilbert <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntswb.gif") 
+
+Pythagoras_A <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntt1q.gif") 
+
+Tree_A
+Fractal_Curve_C
+Sierpinski_A
+Hilbert
+Pythagoras_A
+
+```
+
+
 ## Import Data
 
 ```{r import_data}
