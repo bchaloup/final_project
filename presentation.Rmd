@@ -1,0 +1,63 @@
+---
+title: "Untitled"
+author: "Scott Wallner, Tess Sameshima, & Ben Chaloupka"
+date: "11/25/2020"
+output:
+  revealjs::revealjs_presentation:
+    theme:  blood
+    center: TRUE
+    self_contained: FALSE
+---
+
+# This is our title
+
+## Authors
+
+Scott Wallner, Tess Sameshima, and Ben Chaloupka
+
+# Ben Chaloupka
+
+## Challenges faced along the way
+
+this text will appear on the slide
+
+## Victories and things to celebrate
+
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Fractal Dwell Time Schematic.jpg" height="360" width="480">
+
+## Challenges you are still facing
+
+## Substantive findings and interpretations
+
+## Next R hurdle to tackle
+
+# Tess Sameshima
+
+## Challenges faced along the way
+
+## Victories and things to celebrate
+
+## Challenges you are still facing
+
+## Substantive findings and interpretations
+
+## Next R hurdle to tackle
+
+# Scott Wallner
+
+## Challenges faced along the way
+
+## Victories and things to celebrate
+
+## Challenges you are still facing
+
+## Substantive findings and interpretations
+
+## Next R hurdle to tackle
+
+# Conclusions
+
+## Thank you slide
+
+
+

@@ -16,31 +16,6 @@ library(tidyverse)
 theme_set(theme_minimal())
 ```
 
-## Fractal Iteration GIF
-
-```{r}
-
-library(magick)
-
-Tree_A <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4nts3v.gif") 
-
-Fractal_Curve_C <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntsf7.gif") 
-
-Sierpinski_A <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntsnw.gif") 
-
-Hilbert <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntswb.gif") 
-
-Pythagoras_A <- image_read("C:/Users/sgwallner/Downloads/r_projects/final_project/4ntt1q.gif") 
-
-Tree_A
-Fractal_Curve_C
-Sierpinski_A
-Hilbert
-Pythagoras_A
-
-```
-
-
 ## Import Data
 
 ```{r import_data}
@@ -278,12 +253,90 @@ model2 <- lm(data = seq_fractal_data, dwell_time ~ sequence_position * fractal_t
 
 car::Anova(model2)
 
-seq_fractal_data %>% 
-  ggplot(aes(x = sequence_position, y = dwell_time)) +
+temp <- seq_fractal_data %>% 
+  mutate(seq_pos2 = case_when(
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 1 ~ 18,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 2 ~ 17,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 3 ~ 16,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 4 ~ 15,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 5 ~ 14,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 6 ~ 13,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 7 ~ 12,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 8 ~ 11,
+    direction == "Decay" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 9 ~ 10,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 1 ~ 1,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 2 ~ 2,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 3 ~ 3,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 4 ~ 4,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 5 ~ 5,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 6 ~ 6,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 7 ~ 7,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 8 ~ 8,
+    direction == "Growth" & (fractal_type == "Fern_A" | fractal_type == "Fern_B") & sequence_position == 9 ~ 9,
+    direction == "Decay" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 1 ~ 12,
+    direction == "Decay" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 2 ~ 11,
+    direction == "Decay" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 3 ~ 10,
+    direction == "Decay" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 4 ~ 9,
+    direction == "Decay" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 5 ~ 8,
+    direction == "Decay" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 6 ~ 7,
+    direction == "Growth" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 1 ~ 1,
+    direction == "Growth" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 2 ~ 2,
+    direction == "Growth" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 3 ~ 3,
+    direction == "Growth" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 4 ~ 4,
+    direction == "Growth" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 5 ~ 5,
+    direction == "Growth" & (fractal_type == "Fractal_Curves_A" | fractal_type == "Fractal_Curves_B" | fractal_type == "Fractal_Curves_C" | fractal_type == "Fractal_Curves_D" | fractal_type == "Fractal_Curves_E" | fractal_type == "Hilbert" | fractal_type == "Moore" | fractal_type == "Sierpinski_B") & sequence_position == 6 ~ 6,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 1 ~ 16,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 2 ~ 15,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 3 ~ 14,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 4 ~ 13,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 5 ~ 12,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 6 ~ 11,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 7 ~ 10,
+    direction == "Decay" & fractal_type == "Tree_A" & sequence_position == 8 ~ 9,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 1 ~ 1,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 2 ~ 2,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 3 ~ 3,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 4 ~ 4,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 5 ~ 5,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 6 ~ 6,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 7 ~ 7,
+    direction == "Growth" & fractal_type == "Tree_A" & sequence_position == 8 ~ 8,
+    direction == "Decay" & fractal_type == "Sierpinski_A" & sequence_position == 1 ~ 10,
+    direction == "Decay" & fractal_type == "Sierpinski_A" & sequence_position == 2 ~ 9,
+    direction == "Decay" & fractal_type == "Sierpinski_A" & sequence_position == 3 ~ 8,
+    direction == "Decay" & fractal_type == "Sierpinski_A" & sequence_position == 4 ~ 7,
+    direction == "Decay" & fractal_type == "Sierpinski_A" & sequence_position == 5 ~ 6,
+    direction == "Growth" & fractal_type == "Sierpinski_A" & sequence_position == 1 ~ 1,
+    direction == "Growth" & fractal_type == "Sierpinski_A" & sequence_position == 2 ~ 2,
+    direction == "Growth" & fractal_type == "Sierpinski_A" & sequence_position == 3 ~ 3,
+    direction == "Growth" & fractal_type == "Sierpinski_A" & sequence_position == 4 ~ 4,
+    direction == "Growth" & fractal_type == "Sierpinski_A" & sequence_position == 5 ~ 5,
+    direction == "Decay" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 1 ~ 8,
+    direction == "Decay" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 2 ~ 7,
+    direction == "Decay" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 3 ~ 6,
+    direction == "Decay" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 4 ~ 5,
+    direction == "Growth" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 1 ~ 1,
+    direction == "Growth" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 2 ~ 2,
+    direction == "Growth" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 3 ~ 3,
+    direction == "Growth" & (fractal_type == "Pythagoras_A" | fractal_type == "Pythagoras_B") & sequence_position == 4 ~ 4))
+
+
+new_data_never <- temp %>% 
+  group_by(seq_pos2, fractal_type) %>% 
+  summarise(mean_dwell_time = round(mean(dwell_time), 3),
+            sd_dwell_time = round(sd(dwell_time), 3))
+
+temp %>% 
+  ggplot(aes(x = seq_pos2, y = dwell_time, color = fractal_type)) +
   facet_wrap(~fractal_type) +
-  geom_point(data = new_data_forever, aes(y = mean_dwell_time)) +
-  scale_y_continuous(limits = c(0, 1.2)) +
-  labs(y = "Dwell Time (s)", x = "Sequence Position")
+  geom_point(data = new_data_never, aes(y = mean_dwell_time)) +
+  labs(y = "Dwell Time (s)", x = "Sequence Position", title = "Unfolding Dwell Times Over Sequential Fractal Iteration", subtitle = "by Fractal Type") +
+  scale_y_continuous(limits = c(0, 1.4)) +
+  geom_line(data = new_data_never, aes(y = mean_dwell_time)) +
+  theme(legend.position = "none") +
+  scale_color_viridis_d()
+
+unique(seq_fractal_data$fractal_type)
 ```
 
 ## Dwell Time over Time (yeah, that's right)
@@ -293,14 +346,18 @@ seq_fractal_data %>%
 ```{r}
 raw_A_long %>% 
   ggplot(aes(x = number, y = dwell_time, color = participant)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = F)
+  geom_point(alpha = .6) +
+  geom_smooth(method = "lm", se = F) +
+  labs(title = "Unfolding Dwell Times Over Duration of Task", subtitle = "Group 1: Fractal Curves -> Tree Fractal", x = "Image Number (for entire task)", y = "Dwell Time (s)", color = "Participant")
 
 raw_B_long %>% 
   ggplot(aes(x = number, y = dwell_time, color = participant)) +
-  geom_point() +
-  geom_smooth(method = "lm", se = F)
+  geom_point(alpha = .6) +
+  geom_smooth(method = "lm", se = F) +
+  labs(title = "Unfolding Dwell Times Over Duration of Task", subtitle = "Group 2: Tree Fractal -> Fractal Curves", x = "Image Number (for entire task)", y = "Dwell Time (s)", color = "Participant")
+```
 
+```{r}
 raw_A_long %>% 
   ggplot(aes(x = number, y = dwell_time, color = participant)) +
   geom_line()
