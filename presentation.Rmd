@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "EDLD 651 Final Project Presentation"
 author: "Scott Wallner, Tess Sameshima, & Ben Chaloupka"
 date: "11/25/2020"
 output:
@@ -9,13 +9,25 @@ output:
     self_contained: FALSE
 ---
 
-# This is our title
+```{r include = FALSE}
+
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+
+library(revealjs)
+```
+
+
+# Dwelling on Complexity with Dynamic Fractals
+*How much time will participants spend looking at dynamic fractals as they increase or decrease in complexity?*
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mandy4.png" height="360" width="480">
 
 ## Authors
 
 Scott Wallner, Tess Sameshima, and Ben Chaloupka
 
-# Ben Chaloupka
+# Ben "Turtles all the way down," Chaloupka
 
 ## Challenges faced along the way
 
@@ -27,11 +39,9 @@ this text will appear on the slide
 
 ## Challenges you are still facing
 
-## Substantive findings and interpretations
-
 ## Next R hurdle to tackle
 
-# Tess Sameshima
+# Tess "Best hair superlative champion," Sameshima
 
 ## Challenges faced along the way
 
@@ -39,21 +49,79 @@ this text will appear on the slide
 
 ## Challenges you are still facing
 
-## Substantive findings and interpretations
-
 ## Next R hurdle to tackle
 
-# Scott Wallner
+# Scott "Dad jokes for days," Wallner
 
 ## Challenges faced along the way
+- data wrangling
+  - cleaning name 
+  - large data sets
+  - many separate data files for participants and conditions
+  - needed to use both long and wide formats
 
 ## Victories and things to celebrate
+- making GIFs
+- super neat plots
+- research question was answered
+- hypothesis was correct
 
 ## Challenges you are still facing
-
-## Substantive findings and interpretations
+- make some plots prettier
 
 ## Next R hurdle to tackle
+- remove outliers and re-run analysis
+- power analysis
+- adapt and develop the study
+- run an online study
+- replicate with cellular automata and 3D dynamic fractals
+
+# Project Background and Introduction
+
+## What are fractals?
+
+- Invented by Benoit Mandelbrot in 1980
+  *"Clouds are not spheres. Mountains are not triangles."*
+- Measure of "roughness" called dimension
+- Self similarity and scale invariance
+- Mathematically or algorithmically generated
+- Pervasive in nature
+
+## Statistical Fractal Images
+
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Images Example Array.png" height="600" width="800">
+
+## The Dwell Time Paradigm
+
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="600" width="800">
+
+## Growth, Decay and Random Presentations
+
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Presentation Sequences.png" height="600" width="800">
+
+## 
+
+<div class="col">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntsf7.gif" height="300" width="400">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntt1q.gif" height="300" width="400">
+</div>
+
+<div class="col">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntsnw.gif" height="300" width="400">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4nts3v.gif" height="300" width="400">
+</div>
+
+# Substantive findings and interpretations
+
+## Ben
+
+## Tess
+
+## Scott
+
+<!-- <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="360" width="480"> -->
+
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/00scott.png" height="360" width="480">
 
 # Conclusions
 
