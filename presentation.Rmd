@@ -71,7 +71,7 @@ this text will appear on the slide
 
 ## Next R hurdle to tackle
 - remove outliers and re-run analysis
-- power analysis
+- run a power analysis
 - adapt and develop the study
 - run an online study
 - replicate with cellular automata and 3D dynamic fractals
@@ -80,12 +80,43 @@ this text will appear on the slide
 
 ## What are fractals?
 
+:::: {style="display: flex;"}
+
+:::{}
 - Invented by Benoit Mandelbrot in 1980
-  *"Clouds are not spheres. Mountains are not triangles."*
+- *"Clouds are not spheres. Mountains are not triangles."*
 - Measure of "roughness" called dimension
 - Self similarity and scale invariance
 - Mathematically or algorithmically generated
-- Pervasive in nature
+:::
+
+:::{}
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/cloud5.png" height="300" width="400">
+:::
+
+::::
+
+## Where are fractals?...Everywhere!
+Fractals are pervasive in natural processes. 
+
+:::: {style="display: flex;"}
+
+::: {}
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mountain2.png" height="200" width="300">
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/purple.png" height="200" width="300">
+:::
+
+::: {}
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/veins2.png" height="200" width="300">
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/tree2.png" height="200" width="300">
+:::
+
+::: {}
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/river3.png" height="200" width="300">
+<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mud.png" height="200" width="300">
+:::
+
+::::
 
 ## Statistical Fractal Images
 
@@ -113,15 +144,25 @@ this text will appear on the slide
 
 # Substantive findings and interpretations
 
-## Ben
+## 
+<!-- Ben -->
 
-## Tess
+## 
+<!-- Tess -->
 
-## Scott
+## 
+<!-- Scott -->
+
+###
+<small> Dwell times ***increase*** as complexity ***increases*** during the ***growth*** phase.
+</small>
+
+<small>Dwell times ***decrease*** as complexity ***decreases*** during the ***decay*** phase.
+</small>
 
 <!-- <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="360" width="480"> -->
 
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/00scott.png" height="360" width="480">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/00scott.png" height="480" width="640">
 
 # Conclusions
 
