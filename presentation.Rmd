@@ -20,7 +20,9 @@ library(revealjs)
 
 
 # Dwelling on Complexity with Dynamic Fractals
+
 *How much time will participants spend looking at dynamic fractals as they increase or decrease in complexity?*
+
 <img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mandy4.png" height="360" width="480">
 
 ## Authors
@@ -65,6 +67,7 @@ this text will appear on the slide
 - super neat plots
 - research question was answered
 - hypothesis was correct
+- using R to make this presentation
 
 ## Challenges you are still facing
 - make some plots prettier
