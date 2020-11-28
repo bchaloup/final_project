@@ -75,6 +75,7 @@ this text will appear on the slide
 ## Next R hurdle to tackle
 - remove outliers and re-run analysis
 - run a power analysis
+- work with the "random" data
 - adapt and develop the study
 - run an online study
 - replicate with cellular automata and 3D dynamic fractals
