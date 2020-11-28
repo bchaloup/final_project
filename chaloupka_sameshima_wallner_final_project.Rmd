@@ -336,6 +336,7 @@ temp %>%
   theme(legend.position = "none") +
   scale_color_viridis_d()
 
+# dwell times by sequence position and fractal type
 temp %>% 
   ggplot(aes(x = seq_pos2, y = dwell_time, color = fractal_type)) +
   geom_point(data = new_data_never, aes(y = mean_dwell_time)) +
@@ -350,10 +351,13 @@ temp2 <- temp %>%
   summarise(mean_dt = mean(dwell_time)) %>% 
   mutate(mean_dt = mean_dt)
 
+
+# mean dwell times by sequence position
+
 temp2 %>% 
   ggplot(aes(x = seq_pos2, y = mean_dt)) +
   geom_point(data = temp2, aes(y = mean_dt)) +
-  labs(y = "Dwell Time (s)", x = "Sequence Position", title = "Unfolding Dwell Times Over Sequential Fractal Iteration", subtitle = "by Fractal Type") +
+  labs(y = "Mean Dwell Time (s)", x = "Sequence Position", title = "Unfolding Dwell Times Over Sequential Fractal Iteration", subtitle = "Means across all fractal types") +
   scale_y_continuous(limits = c(0, 1.4)) +
   theme(legend.position = "none") +
   scale_color_viridis_d()
