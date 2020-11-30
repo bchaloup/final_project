@@ -367,6 +367,18 @@ temp2 %>%
   theme(legend.position = "none") +
   scale_color_viridis_d()
 
+# trying to use ggridges
+
+library(ggridges)
+
+new_data_never %>% 
+  ggplot(aes(x = seq_pos2, y = mean_dwell_time, color = fractal_type)) +
+  geom_density_ridges() +
+  labs(y = "Dwell Time (s)", x = "Sequence Position", title = "Unfolding Dwell Times Over Sequential Fractal Iteration", subtitle = "by Fractal Type") +
+  scale_y_continuous(limits = c(0, 1.4)) +
+  theme(legend.position = "none") +
+  scale_color_viridis_d()
+
 unique(seq_fractal_data$fractal_type)
 ```
 
