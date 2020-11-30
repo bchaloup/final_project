@@ -179,20 +179,31 @@ Fractals are pervasive in natural processes.
 ## 
 <!-- Scott -->
 
-###
 <small> Dwell times ***increase*** as complexity ***increases*** during the ***growth*** phase.
 </small>
 
 <small>Dwell times ***decrease*** as complexity ***decreases*** during the ***decay*** phase.
 </small>
 
-<!-- <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="360" width="480"> -->
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/0007.png" height="480" width="640"> 
+
+##
+<small> Dwell times ***increase*** as complexity ***increases*** during the ***growth*** phase.
+</small>
+
+<small>Dwell times ***decrease*** as complexity ***decreases*** during the ***decay*** phase.
+</small>
 
 <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="480" width="640">
 
 # Conclusions
 
-## Thank you slide
+##
+We all admit, that we had a blast with this project.
+
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/83QZ.gif" height="400" width="800"> 
+
+
 
 
 
