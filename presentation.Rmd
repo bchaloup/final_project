@@ -105,7 +105,7 @@ How much time will participants spend looking at dynamic fractals as they increa
 
 :::{}
 - Invented by Benoit Mandelbrot in 1980
-- *"Clouds are not spheres. Mountains are not triangles."*
+- *"Clouds are not spheres. Mountains are not cones."*
 - Measure of "roughness" called dimension
 - Self similarity and scale invariance
 - Mathematically or algorithmically generated
