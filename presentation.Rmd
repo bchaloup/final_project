@@ -18,16 +18,11 @@ knitr::opts_chunk$set(echo = FALSE,
 library(revealjs)
 ```
 
-
 # Dwelling on Complexity with Dynamic Fractals
 
 *How much time will participants spend looking at dynamic fractals as they increase or decrease in complexity?*
 
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mandy4.png" height="360" width="480">
-
-## Authors
-
-Scott Wallner, Tess Sameshima, and Ben Chaloupka
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mandy4.png" height="360" width="480">
 
 # Ben "Turtles all the way down," Chaloupka
 
@@ -37,7 +32,7 @@ this text will appear on the slide
 
 ## Victories and things to celebrate
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Fractal Dwell Time Schematic.jpg" height="360" width="480">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="360" width="480">
 
 ## Challenges you are still facing
 
@@ -46,12 +41,25 @@ this text will appear on the slide
 # Tess "Best hair superlative champion," Sameshima
 
 ## Challenges faced along the way
-
+- Technological issues 
+  - Version control
+  - Multi OS nomenclature
+  - Error bars
+  
+ ![Alt Text](https://media.giphy.com/media/wvQIqJyNBOCjK/giphy.gif)
+ 
 ## Victories and things to celebrate
-
+- Technological work arounds
+  - More familiar with path settings
+  - General code interpretation and debugging improvements 
+  
 ## Challenges you are still facing
+- Fluid coding
+- More error feed back comprehension 
 
 ## Next R hurdle to tackle
+- Using R to analyze data collected in MATLAB
+- Using R for my master's project
 
 # Scott "Dad jokes for days," Wallner
 
@@ -95,7 +103,7 @@ this text will appear on the slide
 :::
 
 :::{}
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/cloud5.png" height="300" width="400">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/cloud5.png" height="225" width="300">
 :::
 
 ::::
@@ -106,44 +114,44 @@ Fractals are pervasive in natural processes.
 :::: {style="display: flex;"}
 
 ::: {}
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mountain2.png" height="200" width="300">
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/purple.png" height="200" width="300">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mountain2.png" height="200" width="300">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/purple.png" height="200" width="300">
 :::
 
 ::: {}
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/veins2.png" height="200" width="300">
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/tree2.png" height="200" width="300">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/veins2.png" height="200" width="300">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/tree2.png" height="200" width="300">
 :::
 
 ::: {}
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/river3.png" height="200" width="300">
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mud.png" height="200" width="300">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/river3.png" height="200" width="300">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mud.png" height="200" width="300">
 :::
 
 ::::
 
 ## Statistical Fractal Images
 
-<img src="C:/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Images Example Array.png" height="600" width="800">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Images Example Array.png" height="600" width="800">
 
 ## The Dwell Time Paradigm
 
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="600" width="800">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="600" width="800">
 
 ## Growth, Decay and Random Presentations
 
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Presentation Sequences.png" height="600" width="800">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Presentation Sequences.png" height="600" width="800">
 
 ## 
 
 <div class="col">
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntsf7.gif" height="300" width="400">
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntt1q.gif" height="300" width="400">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4ntsf7.gif" height="300" width="400">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4ntt1q.gif" height="300" width="400">
 </div>
 
 <div class="col">
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntsnw.gif" height="300" width="400">
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4nts3v.gif" height="300" width="400">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4ntsnw.gif" height="300" width="400">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4nts3v.gif" height="300" width="400">
 </div>
 
 # Substantive findings and interpretations
@@ -153,6 +161,7 @@ Fractals are pervasive in natural processes.
 
 ## 
 <!-- Tess -->
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/ovr_dwell_time2.png" height = "300" width = "400">
 
 ## 
 <!-- Scott -->
@@ -166,7 +175,7 @@ Fractals are pervasive in natural processes.
 
 <!-- <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="360" width="480"> -->
 
-<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/00scott.png" height="480" width="640">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="480" width="640">
 
 # Conclusions
 
