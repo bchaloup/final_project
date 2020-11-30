@@ -200,13 +200,18 @@ new_data_for_now <- fractal_data %>%
 new_data_for_later <- fractal_data %>% 
   group_by(direction) %>% 
   summarise(mean_dwell_time = round(mean(dwell_time), 3),
-            sd_dwell_time = round(sd(dwell_time), 3))
+            sd_dwell_time = round(sd(dwell_time), 3),
+            mean_se_dwell_time = round(plotrix::std.error(dwell_time), 3))
 
-fractal_data %>% 
-  ggplot(aes(x = direction, y = dwell_time, fill = direction)) +
-  geom_col(data = new_data_for_later, aes(y = mean_dwell_time)) +
+ymin = new_data_for_later$mean_dwell_time - new_data_for_later$mean_se_dwell_time
+ymax =new_data_for_later$mean_dwell_time + new_data_for_later$mean_se_dwell_time
+
+new_data_for_later %>% 
+  ggplot(aes(x = direction, y = mean_dwell_time, fill = direction)) +
+  geom_col() +
   labs(x = "Direction", y = "Dwell Time (s)", title = "Dwell Times by Condition") +
   theme(legend.position = "none") +
+  geom_errorbar(aes(ymin = ymin, ymax = ymax, width = .5)) +
   scale_fill_viridis_d()
 
 fractal_data %>% 

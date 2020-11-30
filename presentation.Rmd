@@ -18,25 +18,34 @@ knitr::opts_chunk$set(echo = FALSE,
 library(revealjs)
 ```
 
-# Dwelling on Complexity with Dynamic Fractals
+## Dwelling on Complexity with Dynamic Fractals
 
-*How much time will participants spend looking at dynamic fractals as they increase or decrease in complexity?*
+How much time will participants spend looking at dynamic fractals as they increase or decrease in complexity?
 
 <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mandy4.png" height="360" width="480">
 
 # Ben "Turtles all the way down," Chaloupka
 
 ## Challenges faced along the way
-
-this text will appear on the slide
+- Working with Git
+  - Figuring out best practices for collaboration
+- Working with GGPlot
+  - Getting figures to display the right data
+- Not getting distracted by all the pretty fractals
 
 ## Victories and things to celebrate
-
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="360" width="480">
+- We made our presentation in R
+- We made a lot of sweet plots
+- We worked well as a team
+- I came away from this project knowing more about R than I did before
 
 ## Challenges you are still facing
+- Touching up some plots
+- Getting more efficient using Git
 
 ## Next R hurdle to tackle
+- Use functions we learned in class on my own data
+- Get better at commenting my code
 
 # Tess "Best hair superlative champion," Sameshima
 
@@ -158,10 +167,14 @@ Fractals are pervasive in natural processes.
 
 ## 
 <!-- Ben -->
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/group1.png" height = "600" width = "800">
+
+##
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/group2.png" height = "600" width = "800">
 
 ## 
 <!-- Tess -->
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/ovr_dwell_time2.png" height = "300" width = "400">
+<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/ovr_dwell_time2.png" height = "600" width = "800">
 
 ## 
 <!-- Scott -->
