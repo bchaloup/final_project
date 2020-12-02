@@ -93,20 +93,22 @@ How much time will participants spend looking at dynamic fractals as they increa
 ## Victories and celebrations
 - making GIFs
 - super neat plots
+- proof of concept and task
 - research question was answered
 - hypothesis was correct
 - using R to make this presentation
-
-## Remaining Challenges
-- make some plots prettier
 
 ## Next R hurdle to tackle
 - remove outliers and re-run analysis
 - run a power analysis
 - work with the "random" data
+- make some plots prettier
+
+## Remaining Challenges
 - adapt and develop the study
 - run an online study
-- replicate with cellular automata and 3D dynamic fractals
+- 3D dynamic fractals
+- replicate with cellular automata
 
 # Project Background and Introduction
 
