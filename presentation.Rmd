@@ -22,7 +22,7 @@ library(revealjs)
 
 How much time will participants spend looking at dynamic fractals as they increase or decrease in complexity?
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mandy4.png" height="360" width="480">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mandy4.png" height="360" width="480">
 
 
 # Ben "Turtles all the way down," Chaloupka
@@ -85,7 +85,7 @@ How much time will participants spend looking at dynamic fractals as they increa
 :::
 
 :::{}
- <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/cleaning.png" height="250" width="400">
+ <img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/cleaning.png" height="250" width="400">
 :::
 
 ::::
@@ -125,7 +125,9 @@ How much time will participants spend looking at dynamic fractals as they increa
 :::
 
 :::{}
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/cloud5.png" height="225" width="300">
+<!-- <img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/cloud5.png" height="225" width="300"> -->
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/cloud5.png" height="225" width="300">
+
 :::
 
 ::::
@@ -136,58 +138,58 @@ Fractals are pervasive in natural processes.
 :::: {style="display: flex;"}
 
 ::: {}
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mountain2.png" height="200" width="300">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/purple.png" height="200" width="300">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mountain2.png" height="200" width="300">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/purple.png" height="200" width="300">
 :::
 
 ::: {}
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/veins2.png" height="200" width="300">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/tree2.png" height="200" width="300">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/veins2.png" height="200" width="300">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/tree2.png" height="200" width="300">
 :::
 
 ::: {}
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/river3.png" height="200" width="300">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/Natural Fractals/mud.png" height="200" width="300">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/river3.png" height="200" width="300">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/Natural Fractals/mud.png" height="200" width="300">
 :::
 
 ::::
 
 ## Statistical Fractal Images
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Images Example Array.png" height="600" width="800">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Images Example Array.png" height="600" width="800">
 
 ## The Dwell Time Paradigm
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="600" width="800">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Dwell Time Schematic.jpg" height="600" width="800">
 
 ## Growth, Decay and Random Presentations
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/Fractal Presentation Sequences.png" height="600" width="800">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/Fractal Presentation Sequences.png" height="600" width="800">
 
 ## 
 
 <div class="col">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4ntsf7.gif" height="300" width="400">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4ntt1q.gif" height="300" width="400">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntsf7.gif" height="300" width="400">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntt1q.gif" height="300" width="400">
 </div>
 
 <div class="col">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4ntsnw.gif" height="300" width="400">
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/4nts3v.gif" height="300" width="400">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4ntsnw.gif" height="300" width="400">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/4nts3v.gif" height="300" width="400">
 </div>
 
 # Substantive findings and interpretations
 
 ## 
 <!-- Ben -->
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/group1.png" height = "600" width = "800">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/group1.png" height = "600" width = "800">
 
 ##
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/group2.png" height = "600" width = "800">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/group2.png" height = "600" width = "800">
 
 ## 
 <!-- Tess -->
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/ovr_dwell_time2.png" height = "600" width = "800">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/ovr_dwell_time2.png" height = "600" width = "800">
 
 ## 
 <!-- Scott -->
@@ -198,7 +200,7 @@ Fractals are pervasive in natural processes.
 <small>Dwell times ***decrease*** as complexity ***decreases*** during the ***decay*** phase.
 </small>
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/0007.png" height="480" width="640"> 
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/0007.png" height="480" width="640"> 
 
 ##
 <small> Dwell times ***increase*** as complexity ***increases*** during the ***growth*** phase.
@@ -207,14 +209,14 @@ Fractals are pervasive in natural processes.
 <small>Dwell times ***decrease*** as complexity ***decreases*** during the ***decay*** phase.
 </small>
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/00scott.png" height="480" width="640">
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/00scott.png" height="480" width="640">
 
 # Conclusions
 
 ##
 We all admit, that we had a blast with this project.
 
-<img src="/Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/presentation_images/83QZ.gif" height="400" width="800"> 
+<img src="/Users/sgwallner/Downloads/r_projects/final_project/presentation_images/83QZ.gif" height="400" width="800"> 
 
 
 
