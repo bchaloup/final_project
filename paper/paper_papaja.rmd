@@ -34,13 +34,6 @@ affiliation:
   - id            : "1"
     institution   : "University of Oregon"
 
-authornote: |
- Add complete departmental affiliations for each author here. Each new line herein must be indented, like this line.
-
-  Enter author note here.
-  
-
-
 abstract: |   
  Fractals can be described as geometric objects which contain self similarity and scale invariance. Fractal objects and fractal properties are pervasive in nature.  Many processes which involve replication or growth can be modeled with fractal mathematics. The formalized mathematics of fractals has been used as an analog for complexity, an important property related to human cognition. Studies have shown that human perception has evolved to process fractals fluently, as well as exhibit aesthetic preferences for fractals. The experience of fractals in a number of domains have proven to be therapeutically useful. Previous studies have used independent and static fractal images to investigate the relationship between, fractals, complexity and human perception. This study employs a Dwell Time Paradigm to present self paced slide shows of dynamic fractals in an unfolding process of iterative growth and decay. Results of measured looking or dwell times show that participants prefer viewing fractals as they grow through phases of increasing complexity compared to decay phases of decreasing complexity. Longer dwell times for higher complexity may indicate that human perception is captured by the surprising or novel nature of a fractal’s iterative growth process.
 
