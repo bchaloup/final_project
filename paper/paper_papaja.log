@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.7)  7 DEC 2020 16:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.7)  7 DEC 2020 16:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,7 +880,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/fractal_direction.png  used on input line 211.
 (pdftex.def)             Requested size: 123.57857pt x 92.68393pt.
 
-Underfull \vbox (badness 2237) has occurred while \output is active []
+Underfull \vbox (badness 1845) has occurred while \output is active []
 
 [4 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_image
 s/blotches.png> </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/pape
@@ -928,8 +928,8 @@ Package rerunfilecheck Info: File `paper_papaja.out' has not changed.
 (rerunfilecheck)             Checksum: A710A06491D47583E4D295AC0BBBE385;691.
  ) 
 Here is how much of TeX's memory you used:
- 14114 strings out of 481331
- 220155 string characters out of 5916839
+ 14116 strings out of 481331
+ 220200 string characters out of 5916839
  542364 words of memory out of 5000000
  30612 multiletter control sequences out of 15000+600000
  460026 words of font info for 116 fonts, out of 8000000 for 9000
@@ -942,10 +942,10 @@ r10.pfb></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/symbol/usyr
 .pfb></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper_papaja.pdf (8 pages, 1178215 bytes).
+Output written on paper_papaja.pdf (8 pages, 1177682 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
- 57 named destinations out of 1000 (max. 500000)
+ 235 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 59 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
