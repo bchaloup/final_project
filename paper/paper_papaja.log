@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.7)  7 DEC 2020 16:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.7)  7 DEC 2020 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -718,7 +718,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 121.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/c
-oast.jpg, id=32, 642.4pt x 420.57124pt>
+oast.jpg, id=34, 642.4pt x 420.57124pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/coast.jpg Graphic file (type jpg)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -727,7 +727,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/coast.jpg  used on input line 129.
 (pdftex.def)             Requested size: 72.51683pt x 47.47586pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/f
-ractalfern.png, id=33, 334.24875pt x 466.74374pt>
+ractalfern.png, id=35, 334.24875pt x 466.74374pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/fractalfern.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -736,7 +736,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/fractalfern.png  used on input line 129.
 (pdftex.def)             Requested size: 72.52pt x 101.26668pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/s
-pooky.png, id=34, 213.79875pt x 513.92pt>
+pooky.png, id=36, 213.79875pt x 513.92pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/spooky.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -758,7 +758,7 @@ roject/paper/paper_images/spooky.png>]
 Underfull \vbox (badness 2884) has occurred while \output is active []
 
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/b
-ars.png, id=46, 451.6875pt x 276.03125pt>
+ars.png, id=50, 451.6875pt x 276.03125pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/bars.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -767,7 +767,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/bars.png  used on input line 148.
 (pdftex.def)             Requested size: 120.86829pt x 73.86394pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/s
-tar.jpg, id=47, 467.7475pt x 464.73625pt>
+tar.jpg, id=51, 467.7475pt x 464.73625pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/star.jpg Graphic file (type jpg)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -775,13 +775,16 @@ es/star.jpg>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/star.jpg  used on input line 148.
 (pdftex.def)             Requested size: 120.8692pt x 120.09108pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 156.
 [2 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_image
 s/bars.png> </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/pa
 per_images/star.jpg>]
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/s
-quigly.jpg, id=54, 385.44pt x 237.88875pt>
+quigly.jpg, id=59, 385.44pt x 237.88875pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/squigly.jpg Graphic file (type jpg)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -790,7 +793,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/squigly.jpg  used on input line 159.
 (pdftex.def)             Requested size: 72.52272pt x 44.7601pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/t
-riangle.jpg, id=55, 393.47pt x 230.8625pt>
+riangle.jpg, id=60, 393.47pt x 230.8625pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/triangle.jpg Graphic file (type jpg)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -799,7 +802,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/triangle.jpg  used on input line 159.
 (pdftex.def)             Requested size: 72.52063pt x 42.55037pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/m
-aze.jpg, id=56, 513.92pt x 343.2825pt>
+aze.jpg, id=61, 513.92pt x 343.2825pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/maze.jpg Graphic file (type jpg)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -808,7 +811,7 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/maze.jpg  used on input line 159.
 (pdftex.def)             Requested size: 72.52075pt x 48.44159pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/m
-orefractals.png, id=58, 271.0125pt x 476.78125pt>
+orefractals.png, id=64, 271.0125pt x 476.78125pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/morefractals.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
@@ -817,17 +820,14 @@ Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
 ect/paper/paper_images/morefractals.png  used on input line 170.
 (pdftex.def)             Requested size: 65.04018pt x 114.42256pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/s
-quare.png, id=59, 513.92pt x 160.6pt>
+quare.png, id=65, 513.92pt x 160.6pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/square.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
 es/square.png>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
-ect/paper/paper_images/square.png  used on input line 178.
+ect/paper/paper_images/square.png  used on input line 179.
 (pdftex.def)             Requested size: 123.57857pt x 38.6183pt.
-
-Underfull \vbox (badness 1997) has occurred while \output is active []
-
 [3 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_image
 s/squigly.jpg> </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper
 /paper_images/triangle.jpg> </Users/bchaloup/Documents/Fall 2020/EDLD651/final_
@@ -835,53 +835,50 @@ project/paper/paper_images/maze.jpg> </Users/bchaloup/Documents/Fall 2020/EDLD6
 51/final_project/paper/paper_images/morefractals.png> </Users/bchaloup/Document
 s/Fall 2020/EDLD651/final_project/paper/paper_images/square.png>]
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/b
-lotches.png, id=68, 467.7475pt x 313.17pt>
+lotches.png, id=76, 467.7475pt x 313.17pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/blotches.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
 es/blotches.png>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
-ect/paper/paper_images/blotches.png  used on input line 195.
+ect/paper/paper_images/blotches.png  used on input line 196.
 (pdftex.def)             Requested size: 72.52151pt x 48.55518pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/m
-oreblotches.png, id=69, 331.2375pt x 513.92pt>
+oreblotches.png, id=77, 331.2375pt x 513.92pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/moreblotches.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
 es/moreblotches.png>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
-ect/paper/paper_images/moreblotches.png  used on input line 195.
+ect/paper/paper_images/moreblotches.png  used on input line 196.
 (pdftex.def)             Requested size: 72.52373pt x 112.52165pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/d
-econstruction.png, id=70, 492.84125pt x 492.84125pt>
+econstruction.png, id=78, 492.84125pt x 492.84125pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/deconstruction.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
 es/deconstruction.png>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
-ect/paper/paper_images/deconstruction.png  used on input line 195.
+ect/paper/paper_images/deconstruction.png  used on input line 196.
 (pdftex.def)             Requested size: 72.52425pt x 72.52425pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/t
-ask_outline.jpg, id=71, 513.92pt x 385.44pt>
+ask_outline.jpg, id=80, 513.92pt x 385.44pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/task_outline.jpg Graphic file (type jpg)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
 es/task_outline.jpg>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
-ect/paper/paper_images/task_outline.jpg  used on input line 211.
+ect/paper/paper_images/task_outline.jpg  used on input line 212.
 (pdftex.def)             Requested size: 123.57857pt x 92.68393pt.
 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/f
-ractal_direction.png, id=72, 513.92pt x 385.44pt>
+ractal_direction.png, id=81, 513.92pt x 385.44pt>
 File: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_ima
 ges/fractal_direction.png Graphic file (type png)
 <use /Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_imag
 es/fractal_direction.png>
 Package pdftex.def Info: /Users/bchaloup/Documents/Fall 2020/EDLD651/final_proj
-ect/paper/paper_images/fractal_direction.png  used on input line 211.
+ect/paper/paper_images/fractal_direction.png  used on input line 212.
 (pdftex.def)             Requested size: 123.57857pt x 92.68393pt.
-
-Underfull \vbox (badness 1845) has occurred while \output is active []
-
 [4 </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_image
 s/blotches.png> </Users/bchaloup/Documents/Fall 2020/EDLD651/final_project/pape
 r/paper_images/moreblotches.png> </Users/bchaloup/Documents/Fall 2020/EDLD651/f
@@ -890,37 +887,34 @@ Fall 2020/EDLD651/final_project/paper/paper_images/task_outline.jpg> </Users/bc
 haloup/Documents/Fall 2020/EDLD651/final_project/paper/paper_images/fractal_dir
 ection.png>]
 
-LaTeX Warning: Float too large for page by 13.4838pt on input line 301.
+LaTeX Warning: Float too large for page by 13.4838pt on input line 302.
 
-<paper_papaja_files/figure-latex/main-1.pdf, id=82, 463.7325pt x 313.17pt>
+<paper_papaja_files/figure-latex/main-1.pdf, id=91, 463.7325pt x 313.17pt>
 File: paper_papaja_files/figure-latex/main-1.pdf Graphic file (type pdf)
 <use paper_papaja_files/figure-latex/main-1.pdf>
 Package pdftex.def Info: paper_papaja_files/figure-latex/main-1.pdf  used on in
-put line 307.
+put line 308.
 (pdftex.def)             Requested size: 241.74373pt x 163.25551pt.
-<paper_papaja_files/figure-latex/ftfig-1.pdf, id=84, 463.7325pt x 316.18124pt>
+<paper_papaja_files/figure-latex/ftfig-1.pdf, id=93, 463.7325pt x 316.18124pt>
 File: paper_papaja_files/figure-latex/ftfig-1.pdf Graphic file (type pdf)
 <use paper_papaja_files/figure-latex/ftfig-1.pdf>
 Package pdftex.def Info: paper_papaja_files/figure-latex/ftfig-1.pdf  used on i
-nput line 315.
+nput line 316.
 (pdftex.def)             Requested size: 241.74373pt x 164.82527pt.
-<paper_papaja_files/figure-latex/fatigue1-1.pdf, id=86, 457.71pt x 316.18124pt>
+<paper_papaja_files/figure-latex/fatigue1-1.pdf, id=95, 457.71pt x 316.18124pt>
 
 File: paper_papaja_files/figure-latex/fatigue1-1.pdf Graphic file (type pdf)
 <use paper_papaja_files/figure-latex/fatigue1-1.pdf>
 Package pdftex.def Info: paper_papaja_files/figure-latex/fatigue1-1.pdf  used o
-n input line 323.
+n input line 324.
 (pdftex.def)             Requested size: 241.74007pt x 166.99149pt.
-<paper_papaja_files/figure-latex/fatigue2-1.pdf, id=87, 457.71pt x 316.18124pt>
+<paper_papaja_files/figure-latex/fatigue2-1.pdf, id=96, 457.71pt x 316.18124pt>
 
 File: paper_papaja_files/figure-latex/fatigue2-1.pdf Graphic file (type pdf)
 <use paper_papaja_files/figure-latex/fatigue2-1.pdf>
 Package pdftex.def Info: paper_papaja_files/figure-latex/fatigue2-1.pdf  used o
-n input line 329.
+n input line 330.
 (pdftex.def)             Requested size: 241.74007pt x 166.99149pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [5 <./paper_papaja_files/figure-latex/main-1.pdf> <./paper_papaja_files/figure-
 latex/ftfig-1.pdf> <./paper_papaja_files/figure-latex/fatigue1-1.pdf>] [6] [7 <
 ./paper_papaja_files/figure-latex/fatigue2-1.pdf>] [8] (./paper_papaja.aux)
@@ -929,8 +923,8 @@ Package rerunfilecheck Info: File `paper_papaja.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  14116 strings out of 481331
- 220200 string characters out of 5916839
- 542364 words of memory out of 5000000
+ 220140 string characters out of 5916839
+ 543675 words of memory out of 5000000
  30612 multiletter control sequences out of 15000+600000
  460026 words of font info for 116 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -942,10 +936,10 @@ r10.pfb></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/symbol/usyr
 .pfb></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.p
 fb></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
 ></Users/bchaloup/Library/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on paper_papaja.pdf (8 pages, 1177682 bytes).
+Output written on paper_papaja.pdf (8 pages, 1178717 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
+ 244 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
  59 named destinations out of 1000 (max. 500000)
  152 words of extra memory for PDF output out of 10000 (max. 10000000)
 
